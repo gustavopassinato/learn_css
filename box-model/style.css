@@ -1,0 +1,19 @@
+p{
+    width: 100px;
+    height: min-content;
+    padding: 20px;
+    border: 1px solid;
+}
+
+label{
+    display: block;
+    margin: 10px;
+}
+
+textarea{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+}
