@@ -1,0 +1,33 @@
+h1{
+    font-size: 30px;
+    padding: 10px;
+}
+
+h1 strong{
+    font-weight: bold;
+    
+}
+
+p:first-of-type{
+    color: red;
+}
+
+.botao{
+    padding: 20px 55px;
+    margin: 30px;
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.botao:hover{
+    background-color: blueviolet;
+    box-shadow: 10px 5px 5px rgb(126, 126, 126);
+}
+
+.texto-botao::before{
+    content: 'pre - ';
+}
